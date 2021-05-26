@@ -267,3 +267,86 @@ header {
     background-color: #12ccc3;
 }
 
+/* FEEDBACK */
+.feedback {
+    background-image: url(../img/banner3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.feedback__content {
+    box-shadow: 0 1px 7px #8e8e8e;
+    background-color: rgba(0, 0, 0, 0.47);
+    padding: 1rem;
+    color: white;
+}
+
+.feedback__content .item {
+    margin: 1rem;
+}
+
+.feedback__top {
+    background-color: rgba(0, 0, 0, 0.47);
+    padding: 1rem 1.5rem;
+    position: relative;
+}
+
+.item p {
+    margin: 0;
+}
+
+.feedback__top p {
+    font-size: 0.9rem;
+    letter-spacing: 1px ;
+}
+
+.feedback__top::after {
+    content: '';
+    border-top: 9px solid rgba(0, 0, 0, 0.47);
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    position:absolute;
+    top: 100%;
+    left:32%;
+}
+
+.feedback__bottom {
+    width: 55%;
+    margin: 2rem auto 0;
+    display: flex;
+    justify-content: center;
+}
+
+.item .feedback__bottom img {
+    width: 28%;
+    display: inline-block;
+}
+
+.item .feedback__name {
+    padding-left: 5px;
+}
+
+.feedback__name p:first-child {
+    font-size: 1.1rem;
+    font-weight: bold;
+} 
+
+.feedback__name p:last-child {
+    color: #FE4E7F;
+    font-size: 0.9rem;
+} 
+
+.feedback__content .owl-theme .owl-dots .owl-dot {
+    outline: none;
+}
+
+.feedback__content .owl-theme .owl-dots .owl-dot span {
+    color: #FE4E7F;
+    opacity: 0.4;
+}
+
+.feedback__content .owl-theme .owl-dots .owl-dot.active span, 
+.feedback__content .owl-theme .owl-dots .owl-dot:hover span {
+    opacity: 1;
+}
