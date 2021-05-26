@@ -1,0 +1,125 @@
+/* GLOBAL */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* HEADER */
+header {
+;
+}
+
+.header__top {
+    padding: 10px;
+    background-color : #FE4E7F
+}
+
+.header__top a {
+    text-decoration: none;
+    transition: all .5s;
+}
+
+.header__top a:hover {
+    color: #00a98f !important;
+}
+
+.header__top--right i {
+    color: white;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background-color: black;
+    text-align: center;
+    margin: 0 3px;
+}
+
+.navInstruction a {
+    color: black;
+}
+
+.navInstruction .navbar-brand p:first-child {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.navInstruction .navbar-brand p:first-child i {
+    transform: skewX(-10deg);
+}
+
+.navInstruction .navbar-brand p:last-child {
+    letter-spacing: 3px;
+    color: #FE4E7F;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.navInstruction .navbar-nav {
+    margin-left: auto;
+}
+
+#navbarInstruction .nav-link {
+    font-weight: bold;
+}
+
+#navbarInstruction .nav-item {
+    margin: 0 15px;
+}
+
+#navbarInstruction .nav-item:hover a {
+    color: #FE4E7F;
+    transition: all .5s;
+}
+
+#navbarInstruction .nav-item::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #FE4E7F;
+    transition: all .5s;
+}
+
+#navbarInstruction .nav-item:hover::after {
+    width: 100%;
+}
+
+#navbarInstruction .nav-item.active a {
+    color: #FE4E7F;
+}
+
+#navbarInstruction .nav-item.active::after {
+    width: 100%;
+}
+
+#carouselCyber .carousel-caption h1 {
+    font-size: 51px;
+}
+
+#carouselCyber .carousel-caption p {
+    letter-spacing: 4px;
+    font-weight: 300;
+}
+
+#carouselCyber .carousel-caption button {
+    color: white;
+    border: 1px solid white;
+    letter-spacing: 2px;
+    padding: 11px 20px;
+    transition: all .5s;
+}
+
+#carouselCyber .carousel-caption button:hover {
+    background-color: #FE4E7F;
+}
+
+#carouselCyber .carousel-caption {
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
