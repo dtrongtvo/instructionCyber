@@ -39,6 +39,11 @@ html,body {
     margin: 20px auto;
 }
 
+.heading--white p {
+    color: white;
+
+}
+
 /* HEADER */
 header {
 
@@ -153,3 +158,112 @@ header {
     left: 50%;
     transform: translate(-50%,-50%);
 }
+
+/* WELCOME */
+.welcome__content > p {
+    color: #333;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.welcome__course {
+    margin-top: 5rem;
+}
+
+.welcome__item i {
+    font-size: 2rem;
+}
+
+.welcome__item h3 {
+    color: #FE4E7F;
+    margin: 20px 0;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.welcome__item h4 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 1rem 0 0.2rem;
+    color: black;
+}
+
+.welcome__item p {
+    color: #999;
+    font-size: 15px;
+    line-height: 1.8em;
+    letter-spacing: 1px;
+    margin: 10px 0;
+}
+
+.welcome__padding {
+    padding: 2rem;
+}
+
+/* OUR STATS */
+.ourStats {
+    background-image: url(../img/banner2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.ourStats__content {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+.ourStats__item i {
+    font-size: 2.5rem;
+}
+
+.ourStats__item h3 {
+    color: #FE4E7F;
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin: 20px 0 20px;
+}
+
+.ourStats__item p {
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+/* OFFER */
+.offer__content {
+    text-align: center;
+}
+
+.offer__padding {
+    padding: 15px;
+}
+
+.offer__item {
+    box-shadow: 0 0 8px 0 rgba(155, 155, 155, 1);
+    padding: 25px 40px;
+    transition: all .5s ;
+}
+
+.offer__item i {
+    font-size: 2.5rem;
+    color: #FE4E7F;
+}
+
+.offer__item h3 {
+    font-size: 1.25rem;
+    color: black;
+    margin: 25px 0 20px;
+}
+
+.offer__item p {
+    font-size: 0.875rem;
+    color: #6b6b6b;
+    letter-spacing: .5px;
+}
+
+.offer__item:hover {
+    background-color: #12ccc3;
+}
+
