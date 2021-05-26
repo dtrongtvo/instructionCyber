@@ -9,9 +9,39 @@ html,body {
     font-family: 'Work Sans', sans-serif;
 }
 
+.section {
+    padding: 5rem 0;
+}
+
+.heading {
+    text-align: center;
+}
+
+.heading h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #FE4E7F;
+    letter-spacing: 0.5px;
+}
+
+.heading p {
+    letter-spacing: 4px;
+    font-size: 17px;
+    color: black;
+}
+
+.heading p::after {
+    content: '';
+    display: block;
+    width: 70px;
+    height: 2px;
+    background-color: black;
+    margin: 20px auto;
+}
+
 /* HEADER */
 header {
-;
+
 }
 
 .header__top {
